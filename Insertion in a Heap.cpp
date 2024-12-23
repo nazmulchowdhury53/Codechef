@@ -21,7 +21,7 @@ private:
 public:
     void insert(int a) {
         v.push_back(a);
-        heapifyUp(v.size() - 1);  // Ensure this function is properly closed here
+        heapifyUp(v.size() - 1);
     }
 
     void printHeap() const {
